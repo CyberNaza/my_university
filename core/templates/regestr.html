@@ -80,15 +80,16 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Login to Your Account</h2>
+        <h2>sign in for Account</h2>
         <form action="dashboard.html" method="post">
             <input type="email" placeholder="Email" required>
             <input type="password" placeholder="Password" required>
-            <button type="submit" class="btn-login">Log In</button>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="btn-login">Sign in</button>
         </form>
         <div class="login-options">
-            <a href="#">Forgot your password?</a>
-            <a href="{% url 'regestr' %}">Create Account</a>
+            <a href="{% url 'login' %}"> Alredy have? </a>
+
         </div>
     </div>
 </body>

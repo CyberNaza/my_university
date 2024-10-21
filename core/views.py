@@ -10,3 +10,11 @@ def home(request):
 def login(request):
     template = loader.get_template('login.html')
     return HttpResponse(template.render())
+
+
+
+def regestr(request):
+    template = loader.get_template('regestr.html')
+    return HttpResponse(template.render())
+
+
